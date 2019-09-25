@@ -11,6 +11,7 @@
     <artifactId>ad-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ad-service</name>
+    <packaging>pom</packaging>
     <description>后台服务</description>
 
     <properties>
@@ -19,28 +20,8 @@
 
     <modules>
         <module>ad-common</module>
+        <module>ad-sponsor</module>
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
